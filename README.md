@@ -2,6 +2,8 @@
 
 TODO: what is this repo for ?
 
+This repository is meant to illustrate how [existing software](https://github.com/NLeSC/ShiCo) can be used with different datasets ([times](https://doi.org/10.5281/zenodo.1494140) and [kb](https://doi.org/10.5281/zenodo.1189327)), enabling scholars to carry out research on different resources.
+
 ## Instructions for deploying ShiCo
 
 We assume that you are [able to run Docker images](https://docs.docker.com/get-started/).
