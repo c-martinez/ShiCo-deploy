@@ -12,9 +12,9 @@ You can run the scripts provided in this repo to download the ShiCo data and dep
 
 ### Download data for a given model
 
-Run the `download.py` script:
+Use datahugger to download data:
 ```bash
-python download.py DOI
+datahugger https://doi.org/10.5281/zenodo.1494140 download
 ```
 
 where DOI can be:
