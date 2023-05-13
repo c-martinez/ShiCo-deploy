@@ -1,3 +1,4 @@
 gensim==3.6.0
 clint==0.5.1
 requests==2.21.0
+datahugger==0.3
