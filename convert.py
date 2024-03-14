@@ -25,4 +25,4 @@ for modelName in models:
     print('Converting %s'%modelName)
     newModelName = gensimDir + os.path.basename(modelName)
     model = gensim.models.KeyedVectors.load_word2vec_format(modelName, binary=True)
-    model.save(newModelName)
+    model.save(newModelName, pickle_protocol=2)
