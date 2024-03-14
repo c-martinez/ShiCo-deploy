@@ -23,7 +23,7 @@ where DOI can be:
 |---|---|
 | times | https://doi.org/10.5281/zenodo.1494140 |
 | kb    | https://doi.org/10.5281/zenodo.1189327 |
-| German historic newspapers* | https://doi.org/10.5281/zenodo.3255285 |
+| German historic newspapers\* | https://doi.org/10.5281/zenodo.3255285 |
 
 **Note:** German newspapers contains 3 sets of `chronicling_america`, `europeana` and `sbb`, which can be deployed separately.
 
@@ -47,4 +47,4 @@ Run the `start.sh` bash script:
 ./start.sh
 ```
 
-You should now have a ShiCo backend running on port 8000 and frontend running on port 3000 of your localhost. Visit http://localhost:3000/ to use your instance of ShiCo.
+(or `./start.sh windows` if you are on Microsoft Windows) You should now have a ShiCo backend running on port 8000 and frontend running on port 3000 of your localhost. Visit http://localhost:3000/ to use your instance of ShiCo.
